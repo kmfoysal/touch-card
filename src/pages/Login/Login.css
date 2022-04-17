@@ -1,0 +1,203 @@
+.login-section{
+    margin: 80px 0;
+}
+
+.login{
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.05);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 50px 40px 25px 40px;
+}
+
+.login .logo{
+    width: 87px;
+    margin-bottom: 25px;
+}
+
+.login h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #160831;
+    margin-bottom: 15px;
+}
+
+.login .login-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #635978;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.login .input-box{
+    height: 50px;
+    width: 100%;
+    background: #F4F2F7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+.login .input-box input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 12px;
+}
+
+.login .input-box img{
+    width: 17px;
+}
+
+.login .accecpt-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .accecpt-box label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #635978;
+}
+
+.login .accecpt-box label a{
+    display: inline;
+}
+
+.login .accecpt-box a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #632CC7;
+}
+
+.login .accecpt-box .form-check-input:checked {
+    background-color: #632CC7;
+    border-color: #632CC7;
+}
+
+.login button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: #632CC7;
+    border-radius: 8px;
+    color: #fff;
+    margin: 30px 0;
+    transition: linear 0.4s;
+}
+
+.login button:hover{
+    background-color: #B599EA;
+    /* color: ; */
+
+}
+
+.login .divider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50px; */
+}
+
+.login .divider span{
+    background-color: #D5D0DF;
+    height: 1px;
+    width: 185px;
+}
+
+.login .divider p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #160831;
+    margin: 0 20px;
+}
+
+.login .google-btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border: 1px solid #D5D0DF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 20px 0;
+    transition: linear 0.4s;
+}
+
+.login .google-btn:hover{
+    border-color: #FF4E3E;
+}
+
+.login .google-btn img{
+    margin-right: 12px;
+}
+
+.login .facebook-btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border: 1px solid #D5D0DF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1877F2;
+    transition: linear 0.4s;
+}
+
+.login .facebook-btn:hover{
+    border-color: #1877F2;
+}
+
+.login .facebook-btn img{
+    margin-right: 12px;
+}
+
+.login .toggole-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #635978;
+    margin-top: 25px;
+}
+
+.login .toggole-text a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #632CC7;
+}

@@ -1,0 +1,12 @@
+.calender-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calender-container h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #160831;
+
+}

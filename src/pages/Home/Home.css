@@ -1,0 +1,12 @@
+.home {
+  /* display: flex; */
+}
+
+.dashboard {
+  /* flex: 5; */
+  /* background-color: blue; */
+}
+
+.home-container {
+  padding: 30px 40px;
+}
